@@ -1,7 +1,7 @@
-myDict = {'key1':'value1','key2':'value2'}
+my_dict = {'key1':'value1','key2':'value2'}
 
-print(myDict)
-print(myDict['key1'])
+print(my_dict)
+print(my_dict['key1'])
 
 pricesLookup = {'apple':2.99, 'orange':1.99, 'milk':5.80}
 

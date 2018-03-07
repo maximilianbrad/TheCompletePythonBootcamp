@@ -1,8 +1,8 @@
 t = (1,2,3)
-myList = [1,2,3]
+my_list = [1,2,3]
 
 print(type(t))
-print(myList)
+print(my_list)
 
 print(t)
 
@@ -17,10 +17,10 @@ t = ('a', 'a', 'b')
 print(t.count('a'))
 print(t.index('a'), t.index('b'))
 
-print(t, myList)
+print(t, my_list)
 
-myList[0] = 'NEW'
-print(myList)
+my_list[0] = 'NEW'
+print(my_list)
 
 #t[0] = 'NEW' throws an error
 print(t)

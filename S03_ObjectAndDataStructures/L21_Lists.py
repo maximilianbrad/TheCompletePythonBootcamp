@@ -1,57 +1,57 @@
-myList = [1,2,3]
+my_list = [1,2,3]
 
-myList = ['String', 100, 23.1]
+my_list = ['String', 100, 23.1]
 
-print(len(myList))
+print(len(my_list))
 
-myList = ['one', 'two', 'three']
+my_list = ['one', 'two', 'three']
 
 #Indexing and Slicing work the same for lists as strings
-print(myList[0])
+print(my_list[0])
 
-print(myList[1:])
+print(my_list[1:])
 
 #Concatenation
 anotherList = ['four', 'five']
 
-print(myList + anotherList)
+print(my_list + anotherList)
 
-print(myList, anotherList)
+print(my_list, anotherList)
 
-newList = myList + anotherList
+new_list = my_list + anotherList
 
-print(newList)
+print(new_list)
 
 #Lists are MUTABLE
-newList[0] = 'ONE ALL CAPS'
+new_list[0] = 'ONE ALL CAPS'
 
-print(newList)
+print(new_list)
 
 #list methods
-newList.append('six')
+new_list.append('six')
 
-print(newList)
+print(new_list)
 
-print(newList.pop()) #function returns popped item
+print(new_list.pop()) #function returns popped item
 
-print(newList)
+print(new_list)
 
-poppedItem = newList.pop()
+popped_item = new_list.pop()
 
-print(poppedItem)
+print(popped_item)
 
-print(newList.pop(0))
+print(new_list.pop(0))
 
-print(newList)
+print(new_list)
 
-newList = ['a', 'd', 'r', 'o', 'b']
-numList = [1,2,3,4]
+new_list = ['a', 'd', 'r', 'o', 'b']
+num_list = [1,2,3,4]
 
-newList.sort() #sorts list items IN PLACE ie. returns None
-print(newList)
+new_list.sort() #sorts list items IN PLACE ie. returns None
+print(new_list)
 
-numList.sort()
-print(numList)
+num_list.sort()
+print(num_list)
 
-numList.reverse()
-print(numList)
+num_list.reverse()
+print(num_list)

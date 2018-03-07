@@ -1,19 +1,19 @@
-mySet = set()
+my_set = set()
 
-print(mySet)
+print(my_set)
 
-mySet.add(1)
+my_set.add(1)
 
-print(mySet)
+print(my_set)
 
-mySet.add(2)
+my_set.add(2)
 
-print(mySet)
+print(my_set)
 
-mySet.add(2)
+my_set.add(2)
 
-print(mySet)
+print(my_set)
 
-myList = [1,1,1,1,1,1,1,12,2,2,2,2,33,3,3,3]
+my_list = [1,1,1,1,1,1,1,12,2,2,2,2,33,3,3,3]
 
-print(set(myList))
+print(set(my_list))
