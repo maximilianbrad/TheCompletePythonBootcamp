@@ -10,17 +10,20 @@ else:
 
 x = [1,2,3]
 for item in x:
-    # comment
+    # pass is used as a placeholder to prevent syntax error
     pass
 
 my_string = 'Sammy'
 for letter in my_string:
     if letter == 'a':
+        # continue moves the code back to the top of the 
+        # nearest enclosing loop
         continue
     print(letter)
 
 for letter in my_string:
     if letter == 'a':
+        # break stops the nearest enclosing loop
         break
     print(letter)
 
